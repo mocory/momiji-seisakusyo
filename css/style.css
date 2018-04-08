@@ -317,6 +317,10 @@ footer small {
   color: black;
 }
 
+#DTM #hpr a {
+  color: black;
+}
+
 #DTM #hpr a:hover {
   border-bottom: 2px solid black;
 }
