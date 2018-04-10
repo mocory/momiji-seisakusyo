@@ -478,11 +478,10 @@ footer small {
   #index .btn{
     float: none;
     text-align: center;
-    width: 100%;
-    margin-left: 65px;
+    margin-left: 70px;
   }
   #index .content{
     width: 100%;
-    text-align: center;    
+    text-align: center;
   }
 }
