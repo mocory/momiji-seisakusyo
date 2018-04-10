@@ -470,5 +470,19 @@ footer small {
     float: none;
     margin: 0;
     padding: 10px 5% 3px;
+    font-size: 15px;
+  }
+  #index footer{
+    margin-bottom: -100px;
+  }
+  #index .btn{
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-left: 65px;
+  }
+  #index .content{
+    width: 100%;
+    text-align: center;    
   }
 }
