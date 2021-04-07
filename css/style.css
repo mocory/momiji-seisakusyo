@@ -190,12 +190,29 @@ footer small {
 }
 
 #index{
-  background-image: url(../imgs/amil.png),url(../imgs/top.jpg);
+  background-image: url(../imgs/amil.png),url(../imgs/t op.jpg);//意図的にトップ画の参照を切ってる
   background-repeat: no-repeat,no-repeat;
   background-position: center center,center center;
   background-attachment: fixed,fixed;
   background-size: cover,cover;
   background-blend-mode: overlay,none;
+}
+
+#bg-video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+#bg-img{
+  position: fixed;
+  z-index: -99;
 }
 
 #models,#games,#DTM{
@@ -456,11 +473,11 @@ footer small {
   body{
     font-size: 3.5vw;
   }
-  
+
   h1{
     font-size: 7.2vw;
   }
-  
+
   h2{
     font-size: 6vw;
   }
